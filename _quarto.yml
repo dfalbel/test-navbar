@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "test-navbar"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme:
+      light: [flatly, light.scss]
+      dark: [darkly, dark.scss]
+
+
+
